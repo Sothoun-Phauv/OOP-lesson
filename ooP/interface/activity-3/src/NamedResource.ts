@@ -1,0 +1,4 @@
+
+interface NamedResource{
+    getName():string
+}

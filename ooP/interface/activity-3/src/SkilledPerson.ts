@@ -1,0 +1,5 @@
+
+
+ interface SkillPerson{
+    getSkills():string[]
+}

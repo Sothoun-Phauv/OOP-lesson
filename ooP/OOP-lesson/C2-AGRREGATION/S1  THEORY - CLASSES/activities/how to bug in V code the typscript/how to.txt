@@ -1,0 +1,5 @@
+
+- include the property, into the condig TS:
+		"sourceMap": true,
+
+- then run the VS code debuger and launch a NodeJS debug on the build

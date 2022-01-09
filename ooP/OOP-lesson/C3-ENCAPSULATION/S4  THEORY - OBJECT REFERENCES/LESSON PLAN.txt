@@ -1,0 +1,43 @@
+
+- Circular references
+		- look at the code
+		- epxlain the error
+		- fix it
+ 
+- equal by value (value object)
+		"A value object is an object that represents an entity whose equality is not based on identity (id)"
+
+		- 2 points are equals if ?
+		- 2 rectangles are equal if ?
+		- A date
+
+		- A date range
+
+		- A money value with currency
+		- A measure with unit	
+ 
+
+		- An adress
+
+	==> those objects should be immutable : if you change it, you duplicate it !
+		
+
+		- 	translate a point, convert a mesure into another unit,   change a date
+ 		- 	clone the value object
+
+- equal by ID
+		- mail
+		- student
+		- order
+
+	==> those objects are not immutable : they can be changed
+
+
+
+
+
+- 	
+
+
+
+-	Copy VS  reference   object 

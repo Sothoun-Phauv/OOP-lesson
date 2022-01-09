@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var BatMobile_1 = require("./BatMobile");
+var MiniVan_1 = require("./MiniVan");
+var Tuctuc_1 = require("./Tuctuc");
+var VehicleConvoy_1 = require("./VehicleConvoy");
+var batMan = new BatMobile_1.BatMobile("001", 200, true);
+var miniVan = new MiniVan_1.MiniVan("092", 200, 0, 0);
+var tucTuc = new Tuctuc_1.Tuctuc("090", 290, 20);
+var convoy = new VehicleConvoy_1.VehicleConvoy();
+convoy.addVehicle(batMan);
+convoy.addVehicle(miniVan);
+convoy.addVehicle(tucTuc);
+console.log(convoy.getMaxSpeed());

@@ -1,0 +1,8 @@
+Aggregation of classes
+-	Has many  (list of objets)
+-	Has 1, 2, 3   (single objects)
+-	Bi directional relation
+
+-	[UML] class diagramm
+o	Cardinality
+
